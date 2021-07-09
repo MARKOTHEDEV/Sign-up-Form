@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    border:1px solid red;
+    /* border:1px solid red; */
     /* height: 100vh; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .marko_container{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     height: 100%;
 /* display: flex;
 justify-content: center;
@@ -94,4 +94,21 @@ align-items: center; */
      padding: .7rem 1.4rem;
      border-radius: 5px;
      cursor: pointer;
+}
+
+@media screen and (min-width:700px) {
+    .marko-form{
+        max-width: 700px;
+        margin: 0 auto;
+        padding: .8rem 1rem;
+        border-radius: 10px;
+
+    }
+        .flexed_input{
+            display: flex;
+            justify-content: space-between;
+        }
+        .flexed_input .flexed_input_item{
+            width: 45%;
+        }
 }
