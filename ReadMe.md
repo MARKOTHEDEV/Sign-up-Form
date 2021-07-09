@@ -14,3 +14,13 @@
     
 </ol>
     
+<h3>Tech used</h3>
+
+<ol>
+    <li>Html</li>
+    <li>Css
+    </li>
+    <li>Vanila Js</li>
+    
+</ol>
+    
