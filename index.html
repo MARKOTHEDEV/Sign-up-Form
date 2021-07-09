@@ -8,35 +8,107 @@
     <title>signUp form</title>
 </head>
 <body>
-    <!-- start of marko form -->
-    <form action="" class="marko-form" id="marko-form">
-        <!-- start of marko-form__header_container of marko form -->
-        <header class="marko-form__header_container">
-            <h2 class="marko-form__h1">Sign Up</h2>
-            <p class="marko-form__ptag">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-        </header>
-        <!-- end of marko-form__header_container of marko form -->
+    <div class="marko_container">
+        <!-- start of marko form -->
+        <form action="" class="marko-form" id="marko-form">
+            <!-- start of marko-form__header_container of marko form -->
+            <header class="marko-form__header_container">
+                <h2 class="marko-form__h1">Sign Up</h2>
+                <p class="marko_form_content">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </header>
+            <!-- end of marko-form__header_container of marko form -->
 
-        <!-- start of marko-form__input_grid -->
-        <main class="marko-form__input_grid">
-        
+            <!-- start of marko-form__input_grid -->
+            <main class="marko-form__input_grid">
+                <!-- start of flexed_input -->
+                <div class="flexed_input">
+                        <!-- start of marko_form__input_box -->
+                        <div class="marko_form__input_box">
+                            <label for="">First Name</label>
+                            <input type="text" name="" id="" placeholder="e.g John " required>
+                        </div>
+                        <!-- end of marko_form__input_box -->
+
+                        <!-- start of marko_form__input_box -->
+                        <div class="marko_form__input_box">
+                            <label for="">Last Name</label>
+                            <input type="text" name="" id="" placeholder="e.g Doe" required>
+                        </div>
+                        <!-- end of marko_form__input_box -->
+                </div>
+                <!-- end of flexed_input -->
 
 
-                <!-- start of marko_form__input_box -->
-                <div class="marko_form__input_box">
-                    <label for="">First Name</label>
-                    <input type="text" name="" id="">
+
+                  <!-- start of marko_form__input_box -->
+                  <div class="marko_form__input_box">
+                    <label for="">Email Address</label>
+                    <input type="text" name="" id="" placeholder="e.g JohnDoe@gmail.com" required>
                 </div>
                 <!-- end of marko_form__input_box -->
-        </main>
-        <!-- end of marko-form__input_grid -->
-        <p class="marko_form_agreement_info">
-            <input type="checkbox" name="" id="">
 
-            Creating an account means you're okay with our <strong>Terms and Conditions</strong> and Our <strong>Privacy Policy</strong>
-        </p>
-    </form>
-    <!-- end of marko form -->
 
+
+                  <!-- start of marko_form__input_box -->
+                  <div class="marko_form__input_box">
+                      <label for="">Country</label>
+                      <select name="" id="" >
+                          <option value="Nigeria" >Nigeria</option>
+                      </select>
+                  </div>
+                <!-- end of marko_form__input_box -->
+
+
+
+                    <!-- start of marko_form__input_box -->
+                       <div class="marko_form__input_box">
+                           <label for="">Phone Number</label>
+                        
+                           <div class="input_and_select">
+                            <select name="" id="" >
+                                <option value="" >+235</option>
+                            </select>
+                            <input type="number" placeholder="phone Number" >
+                           
+                           </div>
+                      </div>
+                  <!-- end of marko_form__input_box -->
+  
+ 
+
+                <!-- start of flexed_input -->
+                <div class="flexed_input">
+                        
+                    <!-- start of marko_form__input_box -->
+                    <div class="marko_form__input_box">
+                        <label for="">password </label>
+                        <input type="password" name="" id="password1" placeholder="**************" required>
+                    </div>
+                    <!-- end of marko_form__input_box -->
+                
+                
+                    <!-- start of marko_form__input_box -->
+                    <div class="marko_form__input_box">
+                        <label for="">Confirm Password </label>
+                        <input type="password" name="" id="password2" placeholder="**************" required>
+                    </div>
+                    <!-- end of marko_form__input_box -->
+                            
+                </div>
+                <!-- end of flexed_input -->
+
+            </main>
+            <!-- end of marko-form__input_grid -->
+            <p class="marko_form_content">
+                <input type="checkbox" name="" id="">
+
+                Creating an account means you're okay with our <strong>Terms and Conditions</strong> and Our <strong>Privacy Policy</strong>
+            </p>
+
+            <button id="submit_to_marko_form">Sign Up</button>
+        </form>
+        <!-- end of marko form -->
+
+    </div>
 </body>
 </html>
